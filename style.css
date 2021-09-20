@@ -24,11 +24,15 @@ body{
   outline: none !important;
 }
 
-img{
-  max-width: 100%;
-  vertical-align: middle;
-}
-
-ul{
-  list-style: none;
+.home{
+  height: 100vh;
+  padding: 150px 0;
+  border-radius: 0 0 200px 0;
+  position: relative;
+  z-index: 1;
+  background-image: url('../img/banner.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
